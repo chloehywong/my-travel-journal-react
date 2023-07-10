@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #F55A5A;
+  height: 55px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  grid-gap: 5px;
+}
+
+
+.nav--title {
+  font-family: 'Monaco';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px; 
+  color: white;
+}
+
+.nav--logo {
+  height: 22px;
+  width: 22px; 
+}
+
+.trip {
+  display: flex;
+  margin: 23px auto;
+  width: 600px;
+}
+
+.trip--img {
+  height: 180px;
+  width: 180px;
+  border-radius: 5px;
+  margin-top: 20px
+  
+}
+
+.info--line1 {
+   display: flex;
+   align-items: baseline;
+   gap: 5px; 
+   margin-top: 25px; 
+}
+
+.trip--pin {
+  height: 10px;
+  width: 8px; 
+  margin-left: 10px;
+}
+
+.trip--location {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A; 
+}
+
+.trip--link {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+  margin-left: 10px; 
+}
+
+.trip--title {
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #2B283A;
+  margin-top: -10px;
+  margin-left: 10px; 
+}
+
+.trip--date {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  color: #2B283A;
+  margin-left: 10px;
+  margin-top: -5px;  
+}
+
+.trip--content {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #2B283A;
+  margin-left: 10px; 
+  margin-top: -5px;
+}
